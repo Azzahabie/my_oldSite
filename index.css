@@ -1,0 +1,136 @@
+.hi {
+    background: linear-gradient(304deg, #0b9975, #57a146, #4d4ad2);
+    background-size: 600% 600%;
+    -webkit-animation: HI 23s ease infinite;
+    -moz-animation: HI 23s ease infinite;
+    animation: HI 23s ease infinite;
+    min-height: 25vh;
+}
+
+@-webkit-keyframes HI {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+@-moz-keyframes HI {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+@keyframes HI {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+.h {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.h:hover{
+    background-color: rgba(117, 107, 107, 0.404);
+}
+
+
+.app {
+    background-color: violet;
+}
+
+.website {
+    background-color: teal;
+}
+
+.design {
+    background-color: greenyellow;
+}
+
+.h100 {
+    padding: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.cls-1 {
+    width: 10%;
+}
+
+@media only screen and (max-width: 1196px) {
+    .cls-1 {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cls-1 {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .cls-1 {
+        width: 45%;
+    }
+}
+
+.cls-2 {
+    fill: #bcbec0;
+}
+
+.cls-3 {
+    fill: #00a651;
+}
+
+.cls-4{
+    fill: white;
+}
+.cls-5{
+    width: 100px;
+}
+.vp {
+    height: 100vh;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.kink {
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 250px;
+    height: 200px;
+    color: white;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-30{
+    margin-bottom: 35px;
+}

@@ -1,0 +1,222 @@
+img {}
+
+#theimages {
+    margin: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.html {
+    color: #f06529
+}
+
+.css {
+    color: DodgerBlue
+}
+
+.javascript {
+    color: #ac9801
+}
+
+.nodeGreen {
+    color: #68A063
+}
+
+.nodeBlack {
+    color: #303030;
+}
+
+.myOrange {
+    color: #F29111
+}
+
+.myBlue {
+    color: #00758F
+}
+
+hr {
+    width: 200px;
+    background-color: red;
+}
+
+.max-content {
+    width: max-content;
+}
+
+.myShadow {
+    -webkit-box-shadow: 6px 7px 6px -1px rgba(0, 0, 0, 0.87);
+    box-shadow: 6px 7px 6px -1px rgba(0, 0, 0, 0.87);
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+#buttoned {
+    min-height: 140%;
+    border-radius: 15px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.faded {
+    background: linear-gradient(304deg, #0b9975, #57a146, #4d4ad2);
+    background-size: 600% 600%;
+    -webkit-animation: faded 23s ease infinite;
+    -moz-animation: faded 23s ease infinite;
+    animation: faded 23s ease infinite;
+    min-height: 25vh;
+}
+
+@-webkit-keyframes faded {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+@-moz-keyframes faded {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+@keyframes faded {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+.fadedBar {
+    background: linear-gradient(304deg, #0b9975, #99e289, #4d4ad2);
+    background-size: 600% 600%;
+    -webkit-animation: fadedBar 3s ease infinite;
+    -moz-animation: fadedBar 3s ease infinite;
+    animation: fadedBar 3s ease infinite;
+}
+
+@-webkit-keyframes fadedBar {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+@-moz-keyframes fadedBar {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+@keyframes fadedBar {
+    0% {
+        background-position: 0% 15%
+    }
+    50% {
+        background-position: 100% 86%
+    }
+    100% {
+        background-position: 0% 15%
+    }
+}
+
+#buttoned {
+    min-width: 50%;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.cls-1 {
+    fill: rgb(214, 214, 214);
+}
+
+.cls-2 {
+    fill: #bcbec0;
+}
+
+.cls-3 {
+    fill: #00a651;
+}
+
+.cig {
+    background-color: aqua;
+    width: 250px;
+    height: 94px;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photoshop {
+    background-color: #001833;
+    color: #2daaff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.XD {
+    background-color: #470137;
+    color: #ff61f6;
+    padding: 5px;
+    border-radius: 10px;
+}
+.ai{
+    background-color: #330000;
+    color: #ff9a00;
+    padding: 5px;
+    border-radius: 10px;
+}
+a:link {
+    color: #00a651;
+}
+
+a:visited {
+    color: #00a651;
+}
+
+/* mouse over link */
+
+a:hover {
+    color:#00a651;
+}
+
+/* selected link */
+
+a:active {
+    color: #00a651;
+}
